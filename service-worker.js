@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/pikachu-2018/build/precache-manifest.3ee124a2c5c1e3fb4250e069bea85a34.js"
+  "/pikachu-2018/build/precache-manifest.086711d572f8a2ad782b3abe6d3a2f6b.js"
 );
 
 workbox.clientsClaim();
