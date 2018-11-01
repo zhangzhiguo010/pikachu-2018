@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/pikachu-2018/build/static/css/main.4190af6e.chunk.css"
   },
   {
-    "revision": "ee941e023b5c49ff9ee84bb246f479dc",
+    "revision": "b32d9fe99dca8f1f9c59f039e5b67179",
     "url": "/pikachu-2018/build/index.html"
   }
 ];
