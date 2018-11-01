@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://zhangzhiguo010.github.io/pikachu-2018/build/",
   "dependencies": {
     "@babel/core": "7.1.0",
     "@svgr/webpack": "2.4.1",
@@ -31,6 +32,7 @@
     "jest": "23.6.0",
     "jest-pnp-resolver": "1.0.1",
     "jest-resolve": "23.6.0",
+    "jquery": "^3.3.1",
     "mini-css-extract-plugin": "0.4.3",
     "optimize-css-assets-webpack-plugin": "5.0.1",
     "pnp-webpack-plugin": "1.1.0",
@@ -55,7 +57,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -127,6 +131,7 @@
     "@tweenjs/tween.js": "^17.2.0",
     "classnames": "^2.2.6",
     "eventemitter3": "^3.1.0",
+    "gh-pages": "^2.0.1",
     "highcharts": "^6.2.0",
     "leancloud-storage": "^3.10.0",
     "postcss-import": "^12.0.1",
